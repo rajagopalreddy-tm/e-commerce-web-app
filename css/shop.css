@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #f1faff;
+  --text-dark: #030712;
+  --text-light: #6b7280;
+  --extra-light: #fbfbfb;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+.section-container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-bar {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: var(--text-dark);
+  color: var(--white);
+}
+
+.nav-container {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: blue;
+}
+
+.nav-logo span {
+  color: greenyellow;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links li span {
+  color: rgb(150, 0, 0);
+}
+
+.nav-links li span:hover {
+  color: rgb(224, 0, 0);
+}
+
+.link a {
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--text-dark);
+}
+
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-icons span {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.search-bar-container {
+  padding: 1rem 0;
+}
+
+.search-bar-container input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--text-light);
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-bar-container input:focus {
+  border-color: var(--text-dark);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.products-card {
+  display: grid;
+  gap: 0.5rem;
+  color: var(--text-dark);
+  border: 1px solid var(--text-light);
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+.products-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.products-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.products-card p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.products-card p del {
+  font-weight: 400;
+  color: var(--text-light);
+}
+
+.products-card p span i {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

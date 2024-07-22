@@ -1,0 +1,139 @@
+{
+  "mustHave": [
+    {
+      "id": 1,
+      "image": "img/musthave-1.png",
+      "name": "Basic long sleeve T-shirt",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 2,
+      "image": "img/musthave-2.png",
+      "name": "Ribbed T-shirt with buttons",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 3,
+      "image": "img/musthave-3.png",
+      "name": "Jacket with side strips",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 4,
+      "image": "img/musthave-4.png",
+      "name": "High-heel tubular sandals",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 5,
+      "image": "img/musthave-5.png",
+      "name": "Coral fabric belt bag",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 6,
+      "image": "img/musthave-6.png",
+      "name": "Piggy skater slogan T-shirt",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 7,
+      "image": "img/musthave-7.png",
+      "name": "White platform boots",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 8,
+      "image": "img/musthave-8.png",
+      "name": "Sweater vest with sleeves",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 9,
+      "image": "img/musthave-9.png",
+      "name": "Slim fit pants",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 10,
+      "image": "img/musthave-10.png",
+      "name": "Gray backpack",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 11,
+      "image": "img/musthave-11.png",
+      "name": "Neon sweatshirt",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    },
+    {
+      "id": 12,
+      "image": "img/musthave-12.png",
+      "name": "Hooded nautical jacket",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "img/musthave-1.png",
+      "name": "Basic long sleeve T-shirt",
+      "price": {
+        "original": 45,
+        "discounted": 75
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "John",
+      "email": "john@ex.com",
+      "password": "john123"
+    },
+    {
+      "id": "e4f6",
+      "username": "raja",
+      "email": "raja@ex.com",
+      "password": "1234"
+    }
+  ],
+  "cart": [],
+  "wishlist": []
+}

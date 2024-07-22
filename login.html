@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>Login / Sign Up</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <nav class="section-container nav-container">
+    <div class="nav-logo">Training <span>Mug</span></div>
+    <ul class="nav-links">
+      <li class="link"><a href="index.html">HOME</a></li>
+      <li class="link"><a href="#">ABOUT</a></li>
+    </ul>
+    <div class="nav-icons">
+      <span class="ri-user-line"></span>
+    </div>
+  </nav>
+  
+  <section class="section-container form-section">
+    <div class="form-content">
+      <img src="img/login.jpg" alt="header" class="header-img">
+      <div class="form-container">
+        <h2 class="section-title">Login</h2>
+        <form id="login-form">
+          <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit" id="login-btn" class="btn">Login</button>
+          </div>
+          <p>Don't have an account? <a href="#" id="signup-link">Sign Up</a></p>
+        </form>
+        
+        <h2 class="section-title hidden">Sign Up</h2>
+        <form id="signup-form" class="hidden">
+          <div class="form-group">
+            <input type="text" id="new-username" name="username" placeholder="Username">
+            <input type="email" id="email" name="email" placeholder="Email" required>          
+            <input type="password" id="new-password" name="password" placeholder="Password" required>
+            <button type="submit" id="signup-btn" class="btn">Sign Up</button>
+          </div>
+          <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="js/login.js"></script>
+</body>
+</html>
